@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+    padding: 2em;
+    height: 90vh;
+    font-family: Arial, sans-serif;
+}
+
+#clockFace {width: 100%;
+    background: linear-gradient(90deg, rgba(252,101,213,1) 0%, rgba(145,38,238,1) 35%, rgba(0,181,255,1) 100%);
+    color: #fff;
+    font-size: 5em;
+    text-shadow: .05em .05em .04em #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    margin: 1em;
+    height: 20vh;
+    border-radius: 2em;
+}
+
+
+
